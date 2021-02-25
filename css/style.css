@@ -1,0 +1,173 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --prymari-text-color: #757575;
+  --title-text-color: #212121;
+  --focus-color: #2196f3;
+  --main-bgc: #ffffff;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--prymari-text-color);
+}
+.list {
+  list-style: none;
+}
+
+.tex-dec {
+  text-decoration: none;
+}
+
+/* ================  Навигация по сайту ================ */
+
+.web-logo {
+  color: var(--focus-color);
+}
+
+.logo {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.site-nav .link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--focus-color);
+}
+
+.contact-link {
+  color: var(--prymari-text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--focus-color);
+}
+
+/* ================  Навигация по сайту END ================ */
+
+/* ================  Обложка ================ */
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--main-bgc);
+  background-color: var(--focus-color);
+}
+/* ================  Конец обложки ================ */
+
+/* ================  Описание работы ================ */
+
+.features-list .title {
+  color: #212121;
+}
+.features-list .title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.features-list .title-text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* ================ КОНЕЦ описание работы ================ */
+/* ================ Team Selection ================ */
+.team-section {
+  background: #f5f4fa;
+}
+
+.worker-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.worker-specialty {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* ================ КОНЕЦ Team Selection ================ */
+
+/* ================   Footer ================ */
+.footer {
+  background: #2f303a;
+}
+.logos {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-bgc);
+}
+.contact-list-linkm {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-bgc);
+}
+.contact-list-link {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ================ КОНЕЦ Footer ================ */
+
+.second-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
