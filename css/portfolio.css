@@ -64,78 +64,43 @@ body {
 
 /* ================  Навигация по сайту END ================ */
 
-/* ================  Обложка ================ */
-.hero-title {
-  font-family: var(--main-font);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
+/* ================  Основная страница ================ */
 
 .button {
   font-family: var(--main-font);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
-  align-items: center;
+  line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: var(--main-bgc);
-  background-color: var(--focus-color);
-}
-/* ================  Конец обложки ================ */
-
-/* ================  Описание работы ================ */
-
-.features-list .title {
-  color: #212121;
-}
-.features-list .title {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--title-text-color);
-}
-
-.features-list .title-text {
-  font-family: var(--main-font);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
-/* ================ КОНЕЦ описание работы ================ */
-/* ================ Team Selection ================ */
-.team-section {
   background: #f5f4fa;
 }
 
-.worker-name {
+.button:hover,
+.button:focus {
+  color: var(--main-bgc);
+  background-color: var(--focus-color);
+}
+
+.portfolio .portfolio-title {
   font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 
-.worker-specialty {
+.portfolio .portfolio-text {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.87;
   letter-spacing: 0.03em;
+  color: var(--prymari-text-color);
 }
-/* ================ КОНЕЦ Team Selection ================ */
-
+/* ================  КОНЕЦ ОСНОВНОЙ СТРАНИЦЕ ================ */
 /* ================   Footer ================ */
 .footer {
   background: #2f303a;
@@ -166,13 +131,3 @@ body {
 }
 
 /* ================ КОНЕЦ Footer ================ */
-
-.second-title {
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-}
