@@ -12,12 +12,16 @@ body {
   font-family: var(--main-font);
   color: var(--prymari-text-color);
 }
+
 .list {
   list-style: none;
 }
 
 .tex-dec {
   text-decoration: none;
+}
+.adress {
+  font-style: normal;
 }
 
 /* ================  Навигация по сайту ================ */
@@ -27,7 +31,7 @@ body {
 }
 
 .logo {
-  font-family: var(--main-font);
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -107,15 +111,15 @@ body {
 }
 .logos {
   font-family: var(--logo-font);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-bgc);
 }
-.contact-list-linkm {
+.contact-list-item .map {
   font-family: var(--main-font);
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

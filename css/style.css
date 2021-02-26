@@ -20,14 +20,19 @@ body {
   text-decoration: none;
 }
 
+.adress {
+  font-style: normal;
+}
+
 /* ================  Навигация по сайту ================ */
 
 .web-logo {
   color: var(--focus-color);
+  font-family: var(--logo-font);
 }
 
 .logo {
-  font-family: var(--main-font);
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -65,6 +70,11 @@ body {
 /* ================  Навигация по сайту END ================ */
 
 /* ================  Обложка ================ */
+
+.hero {
+  background: #2f303a;
+}
+
 .hero-title {
   font-family: var(--main-font);
   font-weight: 900;
@@ -72,6 +82,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  color: var(--main-bgc);
 }
 
 .button {
@@ -148,7 +159,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-bgc);
 }
-.contact-list-linkm {
+.contact-list-item .map {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
