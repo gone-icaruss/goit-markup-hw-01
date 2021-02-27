@@ -6,12 +6,17 @@
   --focus-color: #2196f3;
   --main-bgc: #ffffff;
   --black-color: #000000;
+  --footer-bgc: #2f303a;
 }
 
 body {
   font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
   color: var(--prymari-text-color);
 }
+
 .list {
   list-style: none;
 }
@@ -43,10 +48,8 @@ body {
 .site-nav .link {
   font-family: var(--main-font);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
@@ -72,7 +75,7 @@ body {
 /* ================  Обложка ================ */
 
 .hero {
-  background: #2f303a;
+  background: var(--footer-bgc);
 }
 
 .hero-title {
@@ -87,6 +90,7 @@ body {
 
 .button {
   font-family: var(--main-font);
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
@@ -102,14 +106,12 @@ body {
 /* ================  Описание работы ================ */
 
 .features-list .title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .features-list .title {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
@@ -118,7 +120,6 @@ body {
 .features-list .title-text {
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -149,7 +150,7 @@ body {
 
 /* ================   Footer ================ */
 .footer {
-  background: #2f303a;
+  background: var(--footer-bgc);
 }
 .logos {
   font-family: var(--logo-font);
@@ -162,7 +163,6 @@ body {
 .contact-list-item .map {
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-bgc);
@@ -170,7 +170,6 @@ body {
 .contact-list-link {
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -187,3 +186,44 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
+/* ================ Portfolio ================ */
+
+.modul-button {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background: #f5f4fa;
+}
+
+.modul-button:hover,
+.modul-button:focus {
+  cursor: pointer;
+  color: var(--main-bgc);
+  background-color: var(--focus-color);
+}
+
+.portfolio .portfolio-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio .portfolio-text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--prymari-text-color);
+}
+/* ================  КОНЕЦ ОСНОВНОЙ СТРАНИЦЕ ================ */
+
+/* ================ КОНЕЦ Portfolio ================ */
